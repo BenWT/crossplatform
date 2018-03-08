@@ -68,7 +68,9 @@ Define a specific version of PhoneGap to build into your app.
 <plugin name="cordova-plugin-file" />
 <plugin name="cordova-plugin-file-transfer" />
 
-<plugic spec="https://github.com/bitpay/cordova-plugin-qrscanner.git" source="git" />
+<plugin name="phonegap-plugin-barcodescanner" >
+    <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+</plugin>
 
 <platform name="ios">
     <icon src="icon.png" />

@@ -16,7 +16,9 @@
 
         <div data-role="page" id="main" data-theme="b">
             <div data-role="content">
-                <h1>Main</h1>
+                <h1>Code</h1>
+
+                <div id="qrcode"></div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -24,19 +26,17 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 
-                <div>
-                    <ul>
-                        <li><a href="#left" data-direction="reverse">Left</a></li>
-                        <li><a href="#main">Main</a></li>
-                        <li><a href="#right">Right</a></li>
-                    </ul>
+                <div class="navigation">
+                    <button>Code</button>
+                    <button onclick="doScan()">Scan</button>
+                    <button onclick="window.location='#data'" data-direction='reversed'>Data</button>
                 </div>
             </div>
         </div>
 
-        <div data-role="page" id="left" data-theme="a">
+        <div data-role="page" id="data" data-theme="a">
             <div data-role="content">
-                <h1>Left</h1>
+                <h1>Data</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -44,32 +44,10 @@
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
 
-                <div>
-                    <ul>
-                        <li><a href="#left" data-direction="reverse">Left</a></li>
-                        <li><a href="#main">Main</a></li>
-                        <li><a href="#right">Right</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div data-role="page" id="right" data-theme="a">
-            <div data-role="content">
-                <h1>Right</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-
-                <div>
-                    <ul>
-                        <li><a href="#left" data-direction="reverse">Left</a></li>
-                        <li><a href="#main" data-direction="reverse">Main</a></li>
-                        <li><a href="#right">Right</a></li>
-                    </ul>
+                <div class="navigation">
+                    <button onclick="window.location='#main'" data-direction='reversed'>Code</button>
+                    <button onclick="doScan()">Scan</button>
+                    <button>Data</button>
                 </div>
             </div>
         </div>
@@ -82,6 +60,8 @@
 
         <script src="js/jqm_defaults.js"></script>
         <script src="js/jquery.mobile-1.4.5.js"></script>
+
+        <script type="text/javascript" src="js/qrcode.min.js"></script>
 
         <script type="text/javascript" src="js/main.js"></script>
     </body>
