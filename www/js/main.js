@@ -41,7 +41,7 @@ function doScan() {
 	cordova.plugins.barcodeScanner.scan(
       function (result) {
 		  if (!result.cancelled) {
-			  alert("success");
+			  alert(result.text);
 		  } else {
 			  // cancelled
 		  }
@@ -54,7 +54,7 @@ function doScan() {
 
 function createCode() {
 	var code = new QRCode("qrcode");
-	code.makeCode("test123456");
+	code.makeCode("test12345634987349hdfjhdfg");
 }
 
 $(document).on("pagebeforeshow", function () {});

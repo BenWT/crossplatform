@@ -24,6 +24,20 @@ p {
     text-align: justify;
 }
 
+#qrcode {
+	width: 100%;
+	height: auto;
+}
+#qrcode img {
+	margin: auto;
+}
+
+.navigation {
+	width: 100%;
+	position: fixed;
+	left:0;
+	bottom: 0;
+}
 .navigation button {
 	float: left;
 	width: 33%;
