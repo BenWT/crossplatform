@@ -19,30 +19,53 @@
                 <h1>Code</h1>
 
                 <div id="qrcode"></div>
-
-                <div class="navigation">
-                    <button>Code</button>
-                    <button onclick="doScan()">Scan</button>
-                    <button onclick="window.location='#data'" data-direction='reversed'>Data</button>
-                </div>
             </div>
         </div>
 
         <div data-role="page" id="data" data-theme="a">
             <div data-role="content">
                 <h1>Data</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
 
-                <div class="navigation">
-                    <button onclick="window.location='#main'" data-direction='reversed'>Code</button>
-                    <button onclick="doScan()">Scan</button>
-                    <button>Data</button>
+                <div id="grid">
+                    <a href="#twitter" data-transition='slidedown'><img src="assets/twitter.png"/></a>
+                    <a href="#facebook" data-transition='slidedown'><img src="assets/facebook.png"/></a>
+                    <a href="#facebook" data-transition='slidedown'><img src="assets/snapchat.png"/></a>
+                    <a href="#facebook" data-transition='slidedown'><img src="assets/steam.png"/></a>
+                    <a href="#facebook" data-transition='slidedown'><img src="assets/phone.png"/></a>
+                    <a href="#facebook" data-transition='slidedown'><img src="assets/email.png"/></a>
                 </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="" id="scanClick">Scan</a>
+            <a href="#main" data-direction="reverse">Code</a>
+            <a href="#data">Data</a>
+        </div>
+
+        <div data-role="page" id="twitter" data-theme="a">
+            <div data-role="content">
+                <h1>Twitter</h1>
+
+                <form id="twitterForm" onsumbit="SaveTwitterData()">
+                    <input id="twitterName" type="text" value="" />
+                    <input type="submit" value="Save" />
+                    <button onclick="location.href='#data';">Back</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div data-role="page" id="success" data-theme="a">
+            <div data-role="content">
+                <button onclick="LaunchTwitter()">Add on Twitter</button>
+                <button onclick="" disabled>Add on Facebook</button>
+                <button onclick="" disabled>Add on Snapchat</button>
+                <button onclick="" disabled>Add on Steam</button>
+                <button onclick="" disabled>Add number to contacts</button>
+                <button onclick="" disabled>Add email to contacts</button>
+                <br />
+                <button onclick="location.href='#data';">Back</button>
             </div>
         </div>
 
@@ -56,7 +79,6 @@
         <script src="js/jquery.mobile-1.4.5.js"></script>
 
         <script type="text/javascript" src="js/qrcode.min.js"></script>
-
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
