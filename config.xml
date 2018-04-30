@@ -134,7 +134,7 @@ Define a specific version of PhoneGap to build into your app.
     <icon src="assets/icons/android/144.png"  platform="android"    qualifier="xxhdpi" />
     <icon src="assets/icons/android/192.png"  platform="android"    qualifier="xxxhdpi" />
     <icon src="assets/icons/android/512.png"  platform="android"    />
-    <splash src="splash.9.png" />
+    <splash src="splash.png" />
     <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="land-hdpi"/>
     <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="land-ldpi"/>
     <splash src="assets/splash/drawable-mdpi/splash2.9.png" density="land-mdpi"/>
