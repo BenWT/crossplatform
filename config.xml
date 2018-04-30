@@ -38,14 +38,18 @@
 <plugin name="cordova-plugin-inappbrowser" />
 <plugin name="cordova-plugin-network-information" />
 
+<plugin name="cordova-plugin-android-camera-permissions" >
+    <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+    <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
+</plugin>
 <plugin name="cordova-plugin-ios-camera-permissions" >
-     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
-     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
+    <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+    <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
 <plugin name="cordova-plugin-camera" >
-     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
-     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
- </plugin>
+    <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+    <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
+</plugin>
 <plugin name="phonegap-plugin-barcodescanner" >
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
