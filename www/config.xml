@@ -72,77 +72,78 @@ Define a specific version of PhoneGap to build into your app.
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
 
-<icon src="splash.png" />
-
-<splash src="splash.png" />
 <platform name="ios">
-        <icon src="icon.png" />
-<!-- iOS 8.0+ -->
-          <!-- iPhone 6 Plus  -->
-          <icon src="assets/icons/apple/Icon-60@3x.png" width="180" height="180" />
-          <!-- iOS 7.0+ -->
-          <!-- iPhone / iPod Touch  -->
-          <icon src="assets/icons/apple/Icon-60.png" width="60" height="60" />
-          <icon src="assets/icons/apple/Icon-60@2x.png" width="120" height="120" />
-          <!-- iPad -->
-          <icon src="assets/icons/apple/Icon-76.png" width="76" height="76" />
-          <icon src="assets/icons/apple/Icon-76@2x.png" width="152" height="152" />
-          <!-- iOS 6.1 -->
-          <!-- Spotlight Icon -->
-          <icon src="assets/icons/apple/Icon-40.png" width="40" height="40" />
-          <icon src="assets/icons/apple/Icon-40@2x.png" width="80" height="80" />
-          <!-- iPhone / iPod Touch -->
-          <icon src="assets/icons/apple/icon.png" width="57" height="57" />
-          <icon src="assets/icons/apple/icon@2x.png" width="114" height="114" />
-          <!-- iPad -->
-          <icon src="assets/icons/apple/Icon-72.png" width="72" height="72" />
-          <icon src="assets/icons/apple/Icon-72@2x.png" width="144" height="144" />
-          <!-- iPhone Spotlight and Settings Icon -->
-          <icon src="assets/icons/apple/Icon-small.png" width="29" height="29" />
-          <icon src="assets/icons/apple/Icon-small@2x.png" width="58" height="58" />
-          <!-- iPad Spotlight and Settings Icon -->
-          <icon src="assets/icons/apple/Icon-50.png" width="50" height="50" />
-          <icon src="assets/icons/apple/Icon-50@2x.png" width="100" height="100" />
+    <icon src="icon.png" />
+    <!-- iOS 8.0+ -->
+    <!-- iPhone 6 Plus  -->
+    <icon src="assets/icons/apple/Icon-60@3x.png" width="180" height="180" />
+    <!-- iOS 7.0+ -->
+    <!-- iPhone / iPod Touch  -->
+    <icon src="assets/icons/apple/Icon-60.png" width="60" height="60" />
+    <icon src="assets/icons/apple/Icon-60@2x.png" width="120" height="120" />
+    <!-- iPad -->
+    <icon src="assets/icons/apple/Icon-76.png" width="76" height="76" />
+    <icon src="assets/icons/apple/Icon-76@2x.png" width="152" height="152" />
+    <!-- iOS 6.1 -->
+    <!-- Spotlight Icon -->
+    <icon src="assets/icons/apple/Icon-40.png" width="40" height="40" />
+    <icon src="assets/icons/apple/Icon-40@2x.png" width="80" height="80" />
+    <!-- iPhone / iPod Touch -->
+    <icon src="assets/icons/apple/icon.png" width="57" height="57" />
+    <icon src="assets/icons/apple/icon@2x.png" width="114" height="114" />
+    <!-- iPad -->
+    <icon src="assets/icons/apple/Icon-72.png" width="72" height="72" />
+    <icon src="assets/icons/apple/Icon-72@2x.png" width="144" height="144" />
+    <!-- iPhone Spotlight and Settings Icon -->
+    <icon src="assets/icons/apple/Icon-small.png" width="29" height="29" />
+    <icon src="assets/icons/apple/Icon-small@2x.png" width="58" height="58" />
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="assets/icons/apple/Icon-50.png" width="50" height="50" />
+    <icon src="assets/icons/apple/Icon-50@2x.png" width="100" height="100" />
 
+    <!-- iPhone and iPod touch -->
+    <splash src="assets/splash/apple/Default~iphone.png" platform="ios" width="320" height="480" />
+    <splash src="assets/splash/apple/Default~iphone-landscape.png" platform="ios" width="480" height="320" />
+    <splash src="assets/splash/apple/Default@2x~iphone.png" platform="ios" width="640" height="960" />
+    <splash src="assets/splash/apple/Default@2x~iphone-landscape.png" platform="ios" width="960" height="640" />
 
-<!-- iPhone and iPod touch -->
-<splash src="assets/splash/apple/IOS-iPhone3-portrait.png" platform="ios" width="320" height="480" />
-<splash src="assets/splash/apple/IOS-iPhone3-landscape.png" platform="ios" width="480" height="320" />
-<splash src="assets/splash/apple/IOS-iPhone4-portrait@2x.png" platform="ios" width="640" height="960" />
-<splash src="assets/splash/apple/IOS-iPhone4-landscape@2x.png" platform="ios" width="960" height="640" />
+    <!-- iPhone 5 / iPod Touch (5th Generation) -->
+    <splash src="assets/splash/apple/Default-568h@2x.png" platform="ios" width="640" height="1136" />
+    <splash src="assets/splash/apple/Default-568h@2x-landscape.png" platform="ios" width="1136" height="640" />
 
-<!-- iPhone 5 / iPod Touch (5th Generation) -->
-<splash src="assets/splash/apple/IOS-iPhone5-portrait@2x.png" platform="ios" width="640" height="1136" />
-<splash src="assets/splash/apple/IOS-iPhone6-landscape@2x.png" platform="ios" width="1136" height="640" />
+    <!-- iPhone 6 -->
+    <splash src="assets/splash/apple/Default-667h@2x-landscape.png" platform="ios" width="750" height="1334" />
+    <!--<splash src="assets/splash/apple/Default-667h@2x-landscape.png" platform="ios" width="1334" height="750" />-->
+    <splash src="assets/splash/apple/Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
+    <splash src="assets/splash/apple/Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
 
-<!-- iPhone 6 -->
-<splash src="assets/splash/apple/IOS-iPhone6-portrait@2x.png" platform="ios" width="750" height="1334" />
-<splash src="assets/splash/apple/IOS-iPhone6-landscape@2x.png" platform="ios" width="1334" height="750" />
-<!--<splash src="assets/splash/apple/iOS-Launch-Images_Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
-<splash src="assets/splash/apple/iOS-Launch-Images_Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />-->
+    <!-- iPad -->
+    <splash src="assets/splash/apple/Default-Portrait~ipad.png" platform="ios" width="768" height="1024" />
+    <splash src="assets/splash/apple/Default-Landscape~ipad.png" platform="ios" width="1024" height="768" />
 
-<!-- iPad -->
-<splash src="assets/splash/apple/IOS-iPad-portrait" platform="ios" width="768" height="1024" />
-
-<!-- Retina iPad -->
-<splash src="assets/splash/apple/IOS-iPadAirMini-portrait@2x.png" platform="ios" width="1536" height="2048" />
-<splash src="assets/splash/apple/IOS-iPadAirMini-landscape@2x.png" platform="ios" width="2048" height="1536" />
-
+    <!-- Retina iPad -->
+    <splash src="assets/splash/apple/Default-Portrait@2x~ipad.png" platform="ios" width="1536" height="2048" />
+    <splash src="assets/splash/apple/Default-Landscape@2x~ipad.png" platform="ios" width="2048" height="1536" />
+    <splash src="splash.png" />
 </platform>
-<splash src="splash.png" />
-
-<!-- <icon platform="android" qualifier="ldpi" src="assets/icons/android/icon-36-ldpi.png"/>
-<icon platform="android" qualifier="mdpi" src="assets/icons/android/icon-48-mdpi.png"/>
-<icon platform="android" qualifier="hdpi" src="assets/icons/android/icon-72-hdpi.png"/>
-<icon platform="android" qualifier="xhdpi" src="assets/icons/android/icon-96-xhdpi.png"/>
-<icon platform="android" qualifier="xxhdpi" src="assets/icons/android/icon-144-xxhdpi.png"/>
-<icon platform="android" qualifier="xxxhdpi" src="assets/icons/android/icon-192-xxxhdpi.png"/> -->
-
-<!-- <splash platform="android" qualifier="ldpi" src="assets/splash/android/screen-ldpi-portrait.png" />
-<splash platform="android" qualifier="mdpi" src="assets/splash/android/screen-mdpi-portrait.png" />
-<splash platform="android" qualifier="hdpi" src="assets/splash/android/screen-hdpi-portrait.png" />
-<splash platform="android" qualifier="xhdpi" src="assets/splash/android/screen-xhdpi-portrait.png" /> -->
-
+<platform name="android">
+    <icon src="icon.png" />
+    <icon src="assets/icons/android/48.png"   platform="android"    qualifier="mdpi" />
+    <icon src="assets/icons/android/72.png"   platform="android"    qualifier="hdpi" />
+    <icon src="assets/icons/android/96.png"  platform="android"    qualifier="xhdpi" />
+    <icon src="assets/icons/android/144.png"  platform="android"    qualifier="xxhdpi" />
+    <icon src="assets/icons/android/192.png"  platform="android"    qualifier="xxxhdpi" />
+    <icon src="assets/icons/android/512.png"  platform="android"    />
+    <splash src="splash.9.png" />
+    <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="land-hdpi"/>
+    <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="land-ldpi"/>
+    <splash src="assets/splash/drawable-mdpi/splash2.9.png" density="land-mdpi"/>
+    <splash src="assets/splash/drawable-xhdpi/splash2.9.png" density="land-xhdpi"/>
+    <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="port-hdpi"/>
+    <splash src="assets/splash/drawable-hdpi/splash2.9.png" density="port-ldpi"/>
+    <splash src="assets/splash/drawable-mdpi/splash2.9.png" density="port-mdpi"/>
+    <splash src="assets/splash/drawable-xhdpi/splash2.9.png" density="port-xhdpi"/>
+</platform>
 <access origin="*"/>
 <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
 <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
