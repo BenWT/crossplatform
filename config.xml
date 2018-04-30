@@ -181,4 +181,5 @@ Define a specific version of PhoneGap to build into your app.
     <allow-intent href="itms-apps:*" />
 </platform>
 <allow-navigation href="*://*youtube.com" />
+<allow-navigation href="twitter://user?*" />
 </widget>
