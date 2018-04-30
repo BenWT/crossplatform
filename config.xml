@@ -11,6 +11,7 @@
 
 <access origin="*" />
 
+<preference name="phonegap-version" value="cli-7.1.0" />
 <preference name="keepRunning" 				value="true" />
 <preference name="DisallowOverscroll" 		videoholdervalue="true"/>
 <preference name="stay-in-webview" 			value="false" />
