@@ -68,7 +68,7 @@
 </platform>
 
 <platform name="ios">
-    <icon src="icon.png" />
+    <icon src="assets/icon.png" />
     <!-- iOS 8.0+ -->
     <!-- iPhone 6 Plus  -->
     <icon src="assets/icons/apple/Icon-60@3x.png" width="180" height="180" />
