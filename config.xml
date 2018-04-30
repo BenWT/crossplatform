@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.adigitalengagement.edwaites"
+    id          = "com.uolcpd.btownshend"
     versionCode = "1"
     version     = "1.0.1" >
 
@@ -71,6 +71,9 @@ Define a specific version of PhoneGap to build into your app.
 <plugin name="phonegap-plugin-barcodescanner" >
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
+<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>To scan barcodes</string>
+</edit-config>
 
 <platform name="ios">
     <icon src="icon.png" />
