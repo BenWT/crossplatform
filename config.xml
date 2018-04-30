@@ -68,12 +68,28 @@ Define a specific version of PhoneGap to build into your app.
 <!-- <plugin name="cordova-plugin-file" /> -->
 <!-- <plugin name="cordova-plugin-file-transfer" /> -->
 
+<plugin name="cordova-plugin-ios-camera-permissions" >
+     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
+</plugin>
+<plugin name="cordova-plugin-camera" >
+     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
+     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="To scan barcodes" />
+ </plugin>
 <plugin name="phonegap-plugin-barcodescanner" >
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
-<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-    <string>To scan barcodes</string>
-</edit-config>
+<platform name="ios">
+     <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+          <string>To scan barcodes</string>
+     </edit-config>
+     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge" overwrite="true" >
+          <string>To scan barcodes</string>
+     </edit-config>
+     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+          <string>To scan barcodes</string>
+     </edit-config>
+</platform>
 
 <platform name="ios">
     <icon src="icon.png" />
