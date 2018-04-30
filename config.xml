@@ -72,7 +72,7 @@ Define a specific version of PhoneGap to build into your app.
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
 </plugin>
 
-<icon src="icon.png" />
+<icon src="splash.png" />
 
 <splash src="splash.png" />
 <platform name="ios">
@@ -138,10 +138,10 @@ Define a specific version of PhoneGap to build into your app.
 <icon platform="android" qualifier="xxhdpi" src="assets/icons/android/icon-144-xxhdpi.png"/>
 <icon platform="android" qualifier="xxxhdpi" src="assets/icons/android/icon-192-xxxhdpi.png"/> -->
 
-<splash platform="android" qualifier="ldpi" src="assets/splash/android/screen-ldpi-portrait.png" />
+<!-- <splash platform="android" qualifier="ldpi" src="assets/splash/android/screen-ldpi-portrait.png" />
 <splash platform="android" qualifier="mdpi" src="assets/splash/android/screen-mdpi-portrait.png" />
 <splash platform="android" qualifier="hdpi" src="assets/splash/android/screen-hdpi-portrait.png" />
-<splash platform="android" qualifier="xhdpi" src="assets/splash/android/screen-xhdpi-portrait.png" />
+<splash platform="android" qualifier="xhdpi" src="assets/splash/android/screen-xhdpi-portrait.png" /> -->
 
 <access origin="*"/>
 <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
