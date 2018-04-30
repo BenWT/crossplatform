@@ -60,13 +60,13 @@ Define a specific version of PhoneGap to build into your app.
 <!-- Plugins -->
 <plugin name="cordova-plugin-console" />
 <plugin name="cordova-plugin-device" />
-<plugin name="cordova-plugin-device-orientation" />
+<!-- <plugin name="cordova-plugin-device-orientation" /> -->
 <plugin name="cordova-plugin-dialogs" />
-<plugin name="cordova-plugin-vibration" />
-<plugin name="cordova-plugin-inappbrowser" />
+<!-- <plugin name="cordova-plugin-vibration" /> -->
+<!-- <plugin name="cordova-plugin-inappbrowser" /> -->
 <plugin name="cordova-plugin-network-information" />
-<plugin name="cordova-plugin-file" />
-<plugin name="cordova-plugin-file-transfer" />
+<!-- <plugin name="cordova-plugin-file" /> -->
+<!-- <plugin name="cordova-plugin-file-transfer" /> -->
 
 <plugin name="phonegap-plugin-barcodescanner" >
     <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
